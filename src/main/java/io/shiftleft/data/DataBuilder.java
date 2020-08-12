@@ -79,9 +79,9 @@ public class DataBuilder {
     Set<Account> accounts3 = new HashSet<Account>();
     accounts3.add(new Account(3111, 421045, "SAVING", 30000, 10));
     accounts3.add(new Account(3112, 421045, "MMA", 300000, 20));
-    Customer customer3 = new Customer("ID-4244", 4244, "Steve", "Toale", DateTime.parse("1979-03-08").toDate(),
-            "769-12-9987", "888225436", "981-110-0101", "650-897-2366", new Address("Main Street", "", "Redwood City",
-            "CA", "95058"), accounts3);
+    // Customer customer3 = new Customer("ID-4244", 4244, "Steve", "Toale", DateTime.parse("1979-03-08").toDate(),
+    //         "769-12-9987", "888225436", "981-110-0101", "650-897-2366", new Address("Main Street", "", "Redwood City",
+    //         "CA", "95058"), accounts3);
 
     return Arrays.asList(customer1, customer2, customer3);
   }
